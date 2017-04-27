@@ -14,6 +14,6 @@ function getString(string){
     }
     catch(e){
         console.log(e.message);
-        getString();
+        getString("Supreme Meme");
     }
 }
